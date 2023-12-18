@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up form</title>
+</head>
+<body>
+
+  <h1>Sign up form</h1>
+
+ <!-- Register form -->
+<h1>Sign up form</h1>
+<form action="/register" method="POST">
+  <input type="text" name="username" placeholder="Username" required>
+  <input type="email" name="email" placeholder="Email" required> <!-- Make sure this line is present -->
+  <input type="password" name="password" placeholder="Password" required>
+  <input type="password" name="confirmPassword" placeholder="Confirm Password" required>
+  <input type="submit" value="Register">
+</form>
+
+
+  <h1>This is home page</h1>
+
+  <ul>
+    <li><a href="/register">Sign up!!</a></li>
+    <li><a href="/login">Login</a></li>
+    <li><a href="/logout">Logout</a></li>
+  </ul>
+
+</body>
+</html>
